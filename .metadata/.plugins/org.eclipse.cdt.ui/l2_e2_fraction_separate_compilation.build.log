@@ -1,0 +1,25 @@
+16:05:25 **** Build of configuration Debug for project l2_e2_fraction_separate_compilation ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+Finished building: ../src/fraction-test.cpp
+ 
+Building file: ../src/fraction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction.d" -MT"src/fraction.d" -o "src/fraction.o" "../src/fraction.cpp"
+Finished building: ../src/fraction.cpp
+ 
+Building file: ../src/util.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/util.d" -MT"src/util.d" -o "src/util.o" "../src/util.cpp"
+Finished building: ../src/util.cpp
+ 
+Building target: l2_e2_fraction_separate_compilation
+Invoking: Cross G++ Linker
+g++  -o "l2_e2_fraction_separate_compilation"  ./src/fraction-test.o ./src/fraction.o ./src/util.o   
+Finished building target: l2_e2_fraction_separate_compilation
+ 
+
+16:05:26 Build Finished (took 1s.61ms)
+

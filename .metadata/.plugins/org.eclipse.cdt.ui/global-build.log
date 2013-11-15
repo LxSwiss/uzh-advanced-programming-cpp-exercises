@@ -1,0 +1,1460 @@
+
+**** Build of configuration Debug for project l3-e2 ****
+
+Nothing to build for project l3-e2
+17:44:26 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:44:28 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+17:44:30 **** Clean-only build of configuration Debug for project l2_e2 ****
+make clean 
+rm -rf  ./src/fraction-test.o ./src/fraction.o ./src/main.o ./src/util.o  ./src/fraction-test.d ./src/fraction.d ./src/main.d ./src/util.d  ls_e2
+ 
+17:44:31 **** Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+17:44:33 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:44:34 **** Build of configuration Debug for project l2_e4 ****
+make all 
+Building file: ../src/dict.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dict.d" -MT"src/dict.d" -o "src/dict.o" "../src/dict.cpp"
+../src/dict.cpp: In function ‘int main(int, const char**)’:
+../src/dict.cpp:53:65: error: ‘strlen’ was not declared in this scope
+make: *** [src/dict.o] Error 1
+
+**** Build of configuration Debug for project l3-e2 ****
+
+Nothing to build for project l3-e2
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+17:45:40 **** Clean-only build of configuration Debug for project l1-e3 ****
+make clean 
+rm -rf  ./src/uzh-adv-c++.o  ./src/uzh-adv-c++.d  l1-e3
+ 
+17:45:40 **** Clean-only build of configuration Debug for project l1-e4 ****
+make clean 
+rm -rf  ./src/fraction.o ./src/main.o  ./src/fraction.d ./src/main.d  l1-e4
+ 
+17:45:40 **** Clean-only build of configuration Debug for project l2_e2 ****
+make clean 
+rm -rf  ./src/fraction-test.o ./src/fraction.o ./src/main.o ./src/util.o  ./src/fraction-test.d ./src/fraction.d ./src/main.d ./src/util.d  l2_e2
+ 
+17:45:40 **** Clean-only build of configuration Debug for project l2_e3 ****
+make clean 
+rm -rf  ./src/main.o ./src/rpcalc.o  ./src/main.d ./src/rpcalc.d  l2_e3
+ 
+17:45:40 **** Clean-only build of configuration Debug for project l2_e4 ****
+make clean 
+rm -rf  ./src/dict.o  ./src/dict.d  l2_e4
+ 
+17:51:14 **** Build of configuration Debug for project l1-e3 ****
+make all 
+Building file: ../src/uzh-adv-c++.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/uzh-adv-c++.d" -MT"src/uzh-adv-c++.d" -o "src/uzh-adv-c++.o" "../src/uzh-adv-c++.cpp"
+Finished building: ../src/uzh-adv-c++.cpp
+ 
+Building target: l1-e3
+Invoking: Cross G++ Linker
+g++  -o "l1-e3"  ./src/uzh-adv-c++.o   
+Finished building target: l1-e3
+ 
+17:51:16 **** Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/fraction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction.d" -MT"src/fraction.d" -o "src/fraction.o" "../src/fraction.cpp"
+Finished building: ../src/fraction.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+17:51:20 **** Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+17:51:22 **** Build of configuration Debug for project l2_e3 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/rpcalc.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rpcalc.d" -MT"src/rpcalc.d" -o "src/rpcalc.o" "../src/rpcalc.cpp"
+Finished building: ../src/rpcalc.cpp
+ 
+Building target: l2_e3
+Invoking: Cross G++ Linker
+g++  -o "l2_e3"  ./src/main.o ./src/rpcalc.o   
+Finished building target: l2_e3
+ 
+17:51:25 **** Build of configuration Debug for project l2_e4 ****
+make all 
+Building file: ../src/dict.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dict.d" -MT"src/dict.d" -o "src/dict.o" "../src/dict.cpp"
+Finished building: ../src/dict.cpp
+ 
+Building target: l2_e4
+Invoking: Cross G++ Linker
+g++  -o "l2_e4"  ./src/dict.o   
+Finished building target: l2_e4
+ 
+
+**** Build of configuration Debug for project l3-e2 ****
+
+Nothing to build for project l3-e2
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+17:51:33 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+13:43:45 **** Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+13:43:49 **** Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/fraction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction.d" -MT"src/fraction.d" -o "src/fraction.o" "../src/fraction.cpp"
+Finished building: ../src/fraction.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+13:43:53 **** Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+13:43:55 **** Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+13:43:56 **** Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+13:43:58 **** Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+13:44:05 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+13:44:21 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+13:44:54 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+13:46:32 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+13:48:01 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+14:01:18 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+14:01:20 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/fraction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction.d" -MT"src/fraction.d" -o "src/fraction.o" "../src/fraction.cpp"
+Finished building: ../src/fraction.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+14:01:23 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+14:01:25 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+14:01:26 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+14:01:28 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+14:01:36 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+14:07:10 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+14:07:12 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/fraction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction.d" -MT"src/fraction.d" -o "src/fraction.o" "../src/fraction.cpp"
+Finished building: ../src/fraction.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+14:07:16 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+14:07:18 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+14:07:19 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+14:07:19 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+14:07:25 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+14:07:33 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+14:07:34 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+14:07:35 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+14:07:37 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+14:07:38 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+14:07:39 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+14:07:43 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+14:09:50 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+14:09:52 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+14:09:55 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+14:09:57 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+14:09:58 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+14:09:59 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+14:10:05 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+14:11:09 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+14:11:10 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/fraction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction.d" -MT"src/fraction.d" -o "src/fraction.o" "../src/fraction.cpp"
+Finished building: ../src/fraction.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+14:11:13 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+14:11:15 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+14:11:16 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+14:11:18 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+14:12:02 **** Clean-only build of configuration Debug for project l1-e3 ****
+make clean 
+rm -rf  ./src/uzh-adv-c++.o  ./src/uzh-adv-c++.d  l1-e3
+ 
+14:12:02 **** Clean-only build of configuration Debug for project l1-e4 ****
+make clean 
+rm -rf  ./src/fraction.o ./src/main.o  ./src/fraction.d ./src/main.d  l1-e4
+ 
+14:12:02 **** Clean-only build of configuration Debug for project l2_e2 ****
+make clean 
+rm -rf  ./src/fraction-test.o ./src/fraction.o ./src/main.o ./src/util.o  ./src/fraction-test.d ./src/fraction.d ./src/main.d ./src/util.d  l2_e2
+ 
+14:12:02 **** Clean-only build of configuration Debug for project l2_e3 ****
+make clean 
+rm -rf  ./src/main.o ./src/rpcalc.o  ./src/main.d ./src/rpcalc.d  l2_e3
+ 
+14:12:02 **** Clean-only build of configuration Debug for project l2_e4 ****
+make clean 
+rm -rf  ./src/dict.o  ./src/dict.d  l2_e4
+ 
+14:12:02 **** Clean-only build of configuration Debug for project l3-e2 ****
+make clean 
+rm -rf  ./src/main.o ./src/pvector.o  ./src/main.d ./src/pvector.d  l3-e2
+ 
+14:12:06 **** Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/fraction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction.d" -MT"src/fraction.d" -o "src/fraction.o" "../src/fraction.cpp"
+Finished building: ../src/fraction.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+16:39:23 **** Build of configuration Debug for project l1-e3 ****
+make all 
+Building file: ../src/uzh-adv-c++.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/uzh-adv-c++.d" -MT"src/uzh-adv-c++.d" -o "src/uzh-adv-c++.o" "../src/uzh-adv-c++.cpp"
+Finished building: ../src/uzh-adv-c++.cpp
+ 
+Building target: l1-e3
+Invoking: Cross G++ Linker
+g++  -o "l1-e3"  ./src/uzh-adv-c++.o   
+Finished building target: l1-e3
+ 
+16:39:25 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/fraction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction.d" -MT"src/fraction.d" -o "src/fraction.o" "../src/fraction.cpp"
+Finished building: ../src/fraction.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+16:39:28 **** Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+16:39:30 **** Build of configuration Debug for project l2_e3 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/rpcalc.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rpcalc.d" -MT"src/rpcalc.d" -o "src/rpcalc.o" "../src/rpcalc.cpp"
+Finished building: ../src/rpcalc.cpp
+ 
+Building target: l2_e3
+Invoking: Cross G++ Linker
+g++  -o "l2_e3"  ./src/main.o ./src/rpcalc.o   
+Finished building target: l2_e3
+ 
+16:39:33 **** Build of configuration Debug for project l2_e4 ****
+make all 
+Building file: ../src/dict.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dict.d" -MT"src/dict.d" -o "src/dict.o" "../src/dict.cpp"
+Finished building: ../src/dict.cpp
+ 
+Building target: l2_e4
+Invoking: Cross G++ Linker
+g++  -o "l2_e4"  ./src/dict.o   
+Finished building target: l2_e4
+ 
+16:39:35 **** Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+16:39:42 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+16:39:44 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+16:39:47 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+16:39:49 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+16:39:51 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+16:39:53 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+16:52:26 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+16:52:52 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+17:45:07 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:45:08 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+../src/main.cpp: In function ‘int main(int, const char**)’:
+../src/main.cpp:84:2: error: expected initializer before ‘cout’
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+17:45:11 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+17:45:13 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:45:14 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+17:45:15 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+17:47:32 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:47:33 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+17:47:36 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+17:47:38 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:47:39 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+17:47:40 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+17:48:17 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:48:18 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+17:48:21 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+17:48:23 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:48:24 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+17:48:25 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+17:48:42 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+17:48:48 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+17:48:50 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:48:51 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+17:48:54 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+17:48:56 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:48:57 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+17:48:58 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+17:49:03 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+17:50:21 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:50:22 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+17:50:26 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+17:50:27 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:50:29 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+17:50:30 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+17:50:37 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+17:57:54 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:57:55 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4
+Invoking: Cross G++ Linker
+g++  -o "l1-e4"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4
+ 
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+17:57:59 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:17: error: ‘fraction’ is not a namespace
+make: *** [src/fraction-test.o] Error 1
+17:58:00 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:58:02 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+17:58:03 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+17:58:13 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:58:14 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+17:58:16 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: expected nested-name-specifier before ‘fraction’
+make: *** [src/fraction-test.o] Error 1
+17:58:18 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:58:19 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+17:58:21 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+17:59:51 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:59:52 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+17:59:54 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+Finished building: ../src/fraction-test.cpp
+ 
+Building file: ../src/fraction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction.d" -MT"src/fraction.d" -o "src/fraction.o" "../src/fraction.cpp"
+Finished building: ../src/fraction.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/util.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/util.d" -MT"src/util.d" -o "src/util.o" "../src/util.cpp"
+Finished building: ../src/util.cpp
+ 
+Building target: l2_e2
+Invoking: Cross G++ Linker
+g++  -o "l2_e2"  ./src/fraction-test.o ./src/fraction.o ./src/main.o ./src/util.o   
+./src/main.o: In function `main':
+/home/alex/workspaceC++/l2_e2/Debug/../src/main.cpp:11: multiple definition of `main'
+./src/fraction-test.o:/home/alex/workspaceC++/l2_e2/Debug/../src/fraction-test.cpp:12: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [l2_e2] Error 1
+17:59:58 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+17:59:59 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+18:00:00 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+18:02:22 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+18:02:24 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+18:02:26 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:17: error: ‘fraction’ is not a namespace
+make: *** [src/fraction-test.o] Error 1
+18:02:28 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+18:02:29 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+18:02:30 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+18:02:47 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+18:02:48 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+18:02:51 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+../src/fraction-test.cpp:10:7: error: ‘fractions’ has not been declared
+make: *** [src/fraction-test.o] Error 1
+18:02:52 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+18:02:53 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+18:02:53 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+18:03:30 **** Incremental Build of configuration Debug for project l1-e3 ****
+make all 
+make: Nothing to be done for `all'.
+18:03:31 **** Incremental Build of configuration Debug for project l1-e4 ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project l2-e1 ****
+
+Nothing to build for project l2-e1
+18:03:34 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+Finished building: ../src/fraction-test.cpp
+ 
+Building target: l2_e2
+Invoking: Cross G++ Linker
+g++  -o "l2_e2"  ./src/fraction-test.o ./src/fraction.o ./src/util.o   
+Finished building target: l2_e2
+ 
+18:03:36 **** Incremental Build of configuration Debug for project l2_e3 ****
+make all 
+make: Nothing to be done for `all'.
+18:03:37 **** Incremental Build of configuration Debug for project l2_e4 ****
+make all 
+make: Nothing to be done for `all'.
+18:03:38 **** Incremental Build of configuration Debug for project l3-e2 ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3 ****
+
+Nothing to build for project l3-e3
+
+**** Build of configuration Debug for project l3-e4 ****
+
+Nothing to build for project l3-e4
+18:04:53 **** Incremental Build of configuration Debug for project l2_e2 ****
+make all 
+make: Nothing to be done for `all'.
+16:05:19 **** Clean-only build of configuration Debug for project l1-e3_hello_world ****
+make clean 
+rm -rf  ./src/uzh-adv-c++.o  ./src/uzh-adv-c++.d  l1-e3
+ 
+16:05:19 **** Build of configuration Debug for project l1-e3_hello_world ****
+make all 
+Building file: ../src/uzh-adv-c++.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/uzh-adv-c++.d" -MT"src/uzh-adv-c++.d" -o "src/uzh-adv-c++.o" "../src/uzh-adv-c++.cpp"
+Finished building: ../src/uzh-adv-c++.cpp
+ 
+Building target: l1-e3_hello_world
+Invoking: Cross G++ Linker
+g++  -o "l1-e3_hello_world"  ./src/uzh-adv-c++.o   
+Finished building target: l1-e3_hello_world
+ 
+16:05:21 **** Clean-only build of configuration Debug for project l1-e4_fraction ****
+make clean 
+rm -rf  ./src/fraction.o ./src/main.o  ./src/fraction.d ./src/main.d  l1-e4
+ 
+16:05:21 **** Build of configuration Debug for project l1-e4_fraction ****
+make all 
+Building file: ../src/fraction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction.d" -MT"src/fraction.d" -o "src/fraction.o" "../src/fraction.cpp"
+Finished building: ../src/fraction.cpp
+ 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: l1-e4_fraction
+Invoking: Cross G++ Linker
+g++  -o "l1-e4_fraction"  ./src/fraction.o ./src/main.o   
+Finished building target: l1-e4_fraction
+ 
+
+**** Build of configuration Debug for project l2-e1_declaration_vs_definition ****
+
+Nothing to build for project l2-e1_declaration_vs_definition
+16:05:25 **** Clean-only build of configuration Debug for project l2_e2_fraction_separate_compilation ****
+make clean 
+rm -rf  ./src/fraction-test.o ./src/fraction.o ./src/util.o  ./src/fraction-test.d ./src/fraction.d ./src/util.d  l2_e2
+ 
+16:05:25 **** Build of configuration Debug for project l2_e2_fraction_separate_compilation ****
+make all 
+Building file: ../src/fraction-test.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction-test.d" -MT"src/fraction-test.d" -o "src/fraction-test.o" "../src/fraction-test.cpp"
+Finished building: ../src/fraction-test.cpp
+ 
+Building file: ../src/fraction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction.d" -MT"src/fraction.d" -o "src/fraction.o" "../src/fraction.cpp"
+Finished building: ../src/fraction.cpp
+ 
+Building file: ../src/util.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/util.d" -MT"src/util.d" -o "src/util.o" "../src/util.cpp"
+Finished building: ../src/util.cpp
+ 
+Building target: l2_e2_fraction_separate_compilation
+Invoking: Cross G++ Linker
+g++  -o "l2_e2_fraction_separate_compilation"  ./src/fraction-test.o ./src/fraction.o ./src/util.o   
+Finished building target: l2_e2_fraction_separate_compilation
+ 
+16:05:27 **** Clean-only build of configuration Debug for project l2_e3_rpn ****
+make clean 
+rm -rf  ./src/main.o ./src/rpcalc.o  ./src/main.d ./src/rpcalc.d  l2_e3
+ 
+16:05:27 **** Build of configuration Debug for project l2_e3_rpn ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building file: ../src/rpcalc.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rpcalc.d" -MT"src/rpcalc.d" -o "src/rpcalc.o" "../src/rpcalc.cpp"
+Finished building: ../src/rpcalc.cpp
+ 
+Building target: l2_e3_rpn
+Invoking: Cross G++ Linker
+g++  -o "l2_e3_rpn"  ./src/main.o ./src/rpcalc.o   
+Finished building target: l2_e3_rpn
+ 
+16:05:30 **** Clean-only build of configuration Debug for project l2_e4_spell_checker ****
+make clean 
+rm -rf  ./src/dict.o  ./src/dict.d  l2_e4
+ 
+16:05:30 **** Build of configuration Debug for project l2_e4_spell_checker ****
+make all 
+Building file: ../src/dict.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dict.d" -MT"src/dict.d" -o "src/dict.o" "../src/dict.cpp"
+Finished building: ../src/dict.cpp
+ 
+Building target: l2_e4_spell_checker
+Invoking: Cross G++ Linker
+g++  -o "l2_e4_spell_checker"  ./src/dict.o   
+Finished building target: l2_e4_spell_checker
+ 
+16:05:33 **** Clean-only build of configuration Debug for project l3-e2_persistent_vector ****
+make clean 
+rm -rf  ./src/main.o ./src/pvector.o  ./src/main.d ./src/pvector.d  l3-e2
+ 
+16:05:33 **** Build of configuration Debug for project l3-e2_persistent_vector ****
+make all 
+Building file: ../src/main.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+In file included from ../src/pvector.cpp:9:0,
+                 from ../src/main.cpp:10:
+../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
+In file included from /usr/include/c++/4.7/vector:65:0,
+                 from ../src/pvector.h:12,
+                 from ../src/pvector.cpp:9,
+                 from ../src/main.cpp:10:
+/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
+make: *** [src/main.o] Error 1
+
+**** Build of configuration Debug for project l3-e3_rpn_calc_pv ****
+
+Nothing to build for project l3-e3_rpn_calc_pv
+
+**** Build of configuration Debug for project l3-e4_rpn_calc_templates ****
+
+Nothing to build for project l3-e4_rpn_calc_templates
+
+**** Build of configuration Debug for project l4-e1_persistent_vector_with_traits ****
+
+Nothing to build for project l4-e1_persistent_vector_with_traits
+
+**** Build of configuration Debug for project l4-e2_interactive_dictionary ****
+
+Nothing to build for project l4-e2_interactive_dictionary
+
+**** Build of configuration Debug for project l4-e3_rpn_with_standard_lib_algorithms ****
+
+Nothing to build for project l4-e3_rpn_with_standard_lib_algorithms
+
+**** Build of configuration Debug for project l4-e4_combineops ****
+
+Nothing to build for project l4-e4_combineops
+
+**** Build of configuration Debug for project l4-e5_connect_4_computer_player ****
+
+Nothing to build for project l4-e5_connect_4_computer_player
+
+**** Build of configuration Debug for project l4-e5_template_based_connect_4 ****
+
+Nothing to build for project l4-e5_template_based_connect_4
+
+**** Build of configuration Debug for project l5-e1_rectangles_and_squares ****
+
+Nothing to build for project l5-e1_rectangles_and_squares

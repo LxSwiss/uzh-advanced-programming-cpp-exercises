@@ -1,0 +1,15 @@
+16:05:30 **** Build of configuration Debug for project l2_e4_spell_checker ****
+make all 
+Building file: ../src/dict.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dict.d" -MT"src/dict.d" -o "src/dict.o" "../src/dict.cpp"
+Finished building: ../src/dict.cpp
+ 
+Building target: l2_e4_spell_checker
+Invoking: Cross G++ Linker
+g++  -o "l2_e4_spell_checker"  ./src/dict.o   
+Finished building target: l2_e4_spell_checker
+ 
+
+16:05:32 Build Finished (took 1s.285ms)
+

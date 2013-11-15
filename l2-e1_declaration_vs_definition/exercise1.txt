@@ -1,0 +1,25 @@
+header file:
+char ch;
+string s;
+
+extern int error_number; //extern statement
+
+static double sq(double); 
+
+const double pi=3.5; // constant definition
+
+
+extern "C" void c_swap(int *a, int *b); //extern
+
+double sqrt(double);
+namespace NS { int a; } //Namespace definition
+struct user; //Type definition
+
+
+not header file:
+int count=1;
+struct fraction { int c; int d; };
+char *name="It's me";
+char *prog[]={"echo","hello","world!",NULL};
+void swap(int &a, int &b) { int c=a; a=b; b=c; }
+struct user;

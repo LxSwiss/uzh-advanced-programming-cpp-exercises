@@ -1,0 +1,16 @@
+
+#include <iostream>
+#include <exception>
+
+#include "fraction.h"
+
+using std::exception;
+using std::cout;
+using std::endl;
+
+int main(int pArgc, const char* pArgv[]) {
+
+
+        return 0;
+
+}
