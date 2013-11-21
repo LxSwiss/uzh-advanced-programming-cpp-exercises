@@ -1,0 +1,88 @@
+/*
+ * pvect.cpp
+ *
+ *  Created on: Nov 10, 2013
+ *      Author: alex
+ */
+
+#include <fstream>
+#include "pvect.h"
+
+template<typename T>
+pvect<T>::pvect(string fname)
+                : filename(fname), vect() {
+        std::ifstream ifs(filename.c_str());
+        T inp;
+        // Problem: >> is formatted input which is determined by whitespace,
+        // so strings which are longer than one word are separated
+        // Solution: use getline instead of >>
+        while (ifs >> inp) {
+                vect.push_back(inp);
+        }
+        ifs.close();
+}
+
+template<typename T>
+pvect<T>::~pvect() {
+        // Rule of three: copy constructor and assignment operator are not implemented
+        std::ofstream ofs(filename.c_str());
+        for (typename std::vect<T>::iterator itr = vect.begin(); itr != vect.end(); itr++) {
+                ofs << *itr << "\n";
+        }
+        ofs << std::flush;
+        ofs.close();
+}
+
+template<typename T>
+void pvect<T>::push_back(const T &element) {
+        vect.push_back(element);
+}
+
+template<typename T>
+void pvect<T>::pop_back() {
+        vect.pop_back();
+}
+
+template<typename T>
+int pvect<T>::size() {
+        return vect.size();
+}
+
+template<typename T>
+bool pvect<T>::empty() {
+        return vect.empty();
+}
+
+template<typename T>
+T pvect<T>::at(int idx) {
+        return vect.at(idx);
+}
+
+template<typename T>
+T pvect<T>::back() {
+        return vect.back();
+}
+
+// Iterators
+
+template<typename T>
+typename pvect<T>::iterator pvect<T>::begin() {
+        return vect.begin();
+}
+
+template<typename T>
+typename pvect<T>::iterator pvect<T>::end() {
+        return vect.end();
+}
+
+template<typename T>
+typename pvect<T>::const_iterator pvect<T>::begin() const {
+        return vect.begin();
+}
+
+template<typename T>
+typename pvect<T>::const_iterator pvect<T>::end() const {
+        return vect.end();
+}
+
+

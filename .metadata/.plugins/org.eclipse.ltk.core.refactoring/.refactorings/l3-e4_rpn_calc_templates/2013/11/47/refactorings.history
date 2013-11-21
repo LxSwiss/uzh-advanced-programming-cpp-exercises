@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;l3-e4_rpn_calc_templates/src/rpcalc.cpp&apos; to &apos;rpn.cpp&apos;" description="Rename resource &apos;rpcalc.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/rpcalc.cpp" name="rpn.cpp" stamp="1385021401308" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;l3-e4_rpn_calc_templates/src/rpcalc.h&apos; to &apos;rpn.h&apos;" description="Rename resource &apos;rpcalc.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/rpcalc.h" name="rpn.h" stamp="1385021409069" updateReferences="true"/>
+</session>

@@ -1,4 +1,13 @@
+13:47:16 **** Incremental Build of configuration Debug for project l4-e2_interactive_dictionary ****
+make all 
+Building file: ../src/dict.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dict.d" -MT"src/dict.d" -o "src/dict.o" "../src/dict.cpp"
+In file included from ../src/pset.cpp:2:0,
+                 from ../src/dict.cpp:7:
+../src/pset.h:7:23: fatal error: persister.h: No such file or directory
+compilation terminated.
+make: *** [src/dict.o] Error 1
 
-**** Build of configuration Debug for project l4-e2_interactive_dictionary ****
+13:47:17 Build Finished (took 706ms)
 
-Nothing to build for project l4-e2_interactive_dictionary

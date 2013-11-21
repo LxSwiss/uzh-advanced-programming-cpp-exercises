@@ -1,4 +1,12 @@
+13:47:26 **** Incremental Build of configuration Debug for project l4-e5_connect_4_computer_player ****
+make all 
+Building target: l4-e5_connect_4_computer_player
+Invoking: Cross G++ Linker
+g++  -o "l4-e5_connect_4_computer_player"  ./src/game.o ./src/player.o ./src/playfield.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [l4-e5_connect_4_computer_player] Error 1
 
-**** Build of configuration Debug for project l4-e5_connect_4_computer_player ****
+13:47:26 Build Finished (took 156ms)
 
-Nothing to build for project l4-e5_connect_4_computer_player

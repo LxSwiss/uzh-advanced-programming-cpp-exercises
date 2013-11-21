@@ -1,17 +1,6 @@
-16:05:33 **** Build of configuration Debug for project l3-e2_persistent_vector ****
+13:47:04 **** Incremental Build of configuration Debug for project l3-e2_persistent_vector ****
 make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-In file included from ../src/pvector.cpp:9:0,
-                 from ../src/main.cpp:10:
-../src/pvector.h:41:19: error: declaration of ‘std::vector<T> pvector<T>::vector’ [-fpermissive]
-In file included from /usr/include/c++/4.7/vector:65:0,
-                 from ../src/pvector.h:12,
-                 from ../src/pvector.cpp:9,
-                 from ../src/main.cpp:10:
-/usr/include/c++/4.7/bits/stl_vector.h:208:11: error: changes meaning of ‘vector’ from ‘class std::vector<T>’ [-fpermissive]
-make: *** [src/main.o] Error 1
+make: Nothing to be done for `all'.
 
-16:05:34 Build Finished (took 959ms)
+13:47:04 Build Finished (took 54ms)
 

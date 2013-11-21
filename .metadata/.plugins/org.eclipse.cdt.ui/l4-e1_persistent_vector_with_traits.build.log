@@ -1,4 +1,6 @@
+13:47:15 **** Incremental Build of configuration Debug for project l4-e1_persistent_vector_with_traits ****
+make all 
+make: Nothing to be done for `all'.
 
-**** Build of configuration Debug for project l4-e1_persistent_vector_with_traits ****
+13:47:15 Build Finished (took 67ms)
 
-Nothing to build for project l4-e1_persistent_vector_with_traits

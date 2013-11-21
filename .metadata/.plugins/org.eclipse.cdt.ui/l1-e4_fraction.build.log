@@ -1,20 +1,6 @@
-16:05:21 **** Build of configuration Debug for project l1-e4_fraction ****
+13:46:58 **** Incremental Build of configuration Debug for project l1-e4_fraction ****
 make all 
-Building file: ../src/fraction.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fraction.d" -MT"src/fraction.d" -o "src/fraction.o" "../src/fraction.cpp"
-Finished building: ../src/fraction.cpp
- 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-Finished building: ../src/main.cpp
- 
-Building target: l1-e4_fraction
-Invoking: Cross G++ Linker
-g++  -o "l1-e4_fraction"  ./src/fraction.o ./src/main.o   
-Finished building target: l1-e4_fraction
- 
+make: Nothing to be done for `all'.
 
-16:05:22 Build Finished (took 908ms)
+13:46:58 Build Finished (took 55ms)
 

@@ -1,4 +1,12 @@
+13:47:29 **** Incremental Build of configuration Debug for project l5-e1_rectangles_and_squares ****
+make all 
+Building target: l5-e1_rectangles_and_squares
+Invoking: Cross G++ Linker
+g++  -o "l5-e1_rectangles_and_squares"  ./src/var1.o ./src/var2.o   
+/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [l5-e1_rectangles_and_squares] Error 1
 
-**** Build of configuration Debug for project l5-e1_rectangles_and_squares ****
+13:47:29 Build Finished (took 154ms)
 
-Nothing to build for project l5-e1_rectangles_and_squares

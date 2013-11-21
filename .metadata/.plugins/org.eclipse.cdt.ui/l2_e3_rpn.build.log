@@ -1,20 +1,6 @@
-16:05:27 **** Build of configuration Debug for project l2_e3_rpn ****
+13:47:01 **** Incremental Build of configuration Debug for project l2_e3_rpn ****
 make all 
-Building file: ../src/main.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
-Finished building: ../src/main.cpp
- 
-Building file: ../src/rpcalc.cpp
-Invoking: Cross G++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rpcalc.d" -MT"src/rpcalc.d" -o "src/rpcalc.o" "../src/rpcalc.cpp"
-Finished building: ../src/rpcalc.cpp
- 
-Building target: l2_e3_rpn
-Invoking: Cross G++ Linker
-g++  -o "l2_e3_rpn"  ./src/main.o ./src/rpcalc.o   
-Finished building target: l2_e3_rpn
- 
+make: Nothing to be done for `all'.
 
-16:05:29 Build Finished (took 1s.912ms)
+13:47:01 Build Finished (took 54ms)
 
